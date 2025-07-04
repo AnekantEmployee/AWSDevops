@@ -3,7 +3,7 @@ phases:
   install:
     commands:
       - echo Installing NGINX
-      - sudo yum -y update
+      - sudo yum update -y
       - sudo yum install nginx -y
       - sudo mkdir -p /var/www/html
       - echo NGINX insstalled and version nginx -v
